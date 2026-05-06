@@ -1,0 +1,14 @@
+[project]
+name = "energy-data-analyst"
+version = "2.0.0"
+description = "Production-ready Streamlit app for electricity consumption data analysis"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.41.0",
+    "pandas>=2.2.0",
+    "numpy>=2.0.0",
+    "openpyxl>=3.1.5",
+    "plotly>=5.24.0",
+    "xlsxwriter>=3.2.0",
+]
